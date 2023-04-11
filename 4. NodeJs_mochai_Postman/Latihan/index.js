@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const router = require('./routes/index')
 
 const app = express()
-const port = 3000
+const port = 3002
 //dari mocha chai
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
